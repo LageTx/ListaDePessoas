@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
 import axios from 'axios'
 
-const API = 'http://localhost:5005/api/pessoas'
+const API = 'https://listadepessoas-production.up.railway.app/api/pessoas'
 
 function FormPessoa() {
   const { id } = useParams()
